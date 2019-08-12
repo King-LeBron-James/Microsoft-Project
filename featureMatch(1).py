@@ -9,20 +9,6 @@ def get_grades(value):
         grade = 100
     return grade
 
-def get_values():
-	path = 'hands\\hand'
-	for i in range(1,13):
-		for j in range(i+1,14):
-			path1=path+ str(i) +'.png'
-			path2=path+ str(j) +'.png'
-			print('hand'+str(i)+' to '+'hand'+str(j)+':')
-			img1 = cv2.imread(path1)
-			img2 = cv2.imread(path2)
-			img_gray1 = cv2.cvtColor(img1,cv2.COLOR_BGR2GRAY)#转为灰度图像
-			img_gray2 = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
-			print(cv2.contourArea(img_gray1))
-			print('match  = ', cv2.matchShapes(img_gray1, img_gray2, 1, 0.0))
-			print('=========================================================')
 
 def featureMatchP():
 	path='hands1\\hand'
