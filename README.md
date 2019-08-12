@@ -5,7 +5,7 @@ This project is handling by Liu Jinyuan from UESTC, Wang Jiajun from SYSU and Ch
 
 Hello world !
 
-#Part 2-Matching&Grading  by Wang Jiajun
+#Part 2-Matching&Grading  by Wang Jiajun  
 The contours I get from my partners are binary images, so what I'm going to do is to match two contours and to grade. I've tried three methods, all from python-openCV.  
 1.matchShapes --matchShapes.py
 The method matchShapes is often used to compare two shapes or two contours, returing a value between 0 and 1. The smaller the value, the more similar two images are. And of cource, if the inputs are two same images, it will return 0.0. In this case, I use two gray images as inputs and record the results. What I find is that similar gestures can get a small value, however, different gestures may get a smaller value, maybe resulted from noise.  
