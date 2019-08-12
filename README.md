@@ -15,4 +15,8 @@ For this project, we think there are three main tasks that we need to complete. 
 
 3. Extraction of Outline based on the Python    
 
-![test](https://github.com/King-LeBron-James/Microsoft-Project/blob/master/hand1.png)
+
+
+
+![1](https://github.com/King-LeBron-James/Microsoft-Project/blob/master/1.png)
+![2](https://github.com/King-LeBron-James/Microsoft-Project/blob/master/2.png)
